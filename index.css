@@ -4,7 +4,6 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 body{
-    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -38,7 +37,7 @@ form{
     box-shadow: 0 0 5px #8f7cec, 0 0 10px #8f7cec, 0 0 10px #8f7cec, 0 0 25px #8f7cec;
     border-radius: .5rem;
 }
-form div{
+form > div{
     display: flex;
     flex-direction: column;
     margin: 0.5rem 0rem;
